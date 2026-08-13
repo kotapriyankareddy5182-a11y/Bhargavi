@@ -12,7 +12,7 @@ let manualPauseTimer=null;
 let lastTime=0;
 
 /* LIVE COUNTDOWN — 17 August 2026, 11:46 AM IST */
-c
+
 
 /* CONTINUOUS INVITATION SCROLL
    The invitation moves continuously through all sections instead of
