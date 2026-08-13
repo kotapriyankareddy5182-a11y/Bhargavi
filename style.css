@@ -21,9 +21,9 @@ button{font:inherit}
 .page-2{background-image:url("assets/02-welcome.png")}
 .page-3{background-image:url("assets/03-bride-groom.png")}
 .page-4{background-image:url("assets/04-event-details.png")}
-.page-5{background-image:url("assets/05-countdown.png")}
+
 .page-6{background-image:url("assets/06-location.png")}
-.page-7{background-image:url("assets/07-bless-us.png")}
+.page-7{background-image:url("assets/05-bless-us.png")}
 .map-hotspot{position:absolute;left:50%;top:78%;transform:translate(-50%,-50%);width:min(62%,420px);height:7.5%;border-radius:60px;display:block}
 @media (min-width:800px){
   body{background:#ddd2cb}
