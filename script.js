@@ -12,23 +12,7 @@ let manualPauseTimer=null;
 let lastTime=0;
 
 /* LIVE COUNTDOWN — 17 August 2026, 11:46 AM IST */
-const eventDate=new Date("2026-08-17T11:46:00+05:30").getTime();
-
-function updateCountdown(){
-  const el=document.querySelector(".page-5");
-  if(!el)return;
-  let d=Math.max(0,eventDate-Date.now());
-  const days=Math.floor(d/86400000);
-  const hours=Math.floor(d/3600000)%24;
-  const minutes=Math.floor(d/60000)%60;
-  const seconds=Math.floor(d/1000)%60;
-  el.style.setProperty("--days",days);
-  el.style.setProperty("--hours",String(hours).padStart(2,"0"));
-  el.style.setProperty("--minutes",String(minutes).padStart(2,"0"));
-  el.style.setProperty("--seconds",String(seconds).padStart(2,"0"));
-}
-updateCountdown();
-setInterval(updateCountdown,1000);
+c
 
 /* CONTINUOUS INVITATION SCROLL
    The invitation moves continuously through all sections instead of
