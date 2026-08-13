@@ -35,7 +35,6 @@ button{font:inherit}
   .map-hotspot{top:78%;width:64%;height:8%}
 }
 
-.page-5::after{content:var(--days,"0")" DAYS   "var(--hours,"00")" HOURS   "var(--minutes,"00")" MINUTES   "var(--seconds,"00")" SECONDS";position:absolute;left:50%;top:63%;transform:translate(-50%,-50%);width:min(84%,560px);padding:16px 10px;border:1px solid #b88b45;border-radius:16px;background:rgba(255,248,244,.94);color:#6a2428;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:clamp(12px,2.6vw,21px);letter-spacing:.07em;line-height:1.6;box-shadow:0 12px 35px rgba(91,45,35,.12);z-index:2;pointer-events:none;}
 
 .countdown-page{display:grid;place-items:center;background:linear-gradient(135deg,#fffaf7,#f2e3dc);}
 .countdown-card{width:min(90%,620px);padding:42px 24px;text-align:center;border:1px solid #b88b45;border-radius:24px;background:rgba(255,250,247,.92);box-shadow:0 18px 55px rgba(91,45,35,.16);}
